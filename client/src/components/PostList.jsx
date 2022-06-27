@@ -9,7 +9,6 @@ function PostList() {
 
   const fetchPosts = async () => {
     const res = await axios.get(api)
-    console.log(res.data)
     setPosts(res.data)
   }
 
