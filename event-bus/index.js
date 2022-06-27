@@ -5,9 +5,9 @@ const axios = require('axios')
 const server = express()
 server.use(bodyParser.json())
 
-const apiOne = 'https://localhost:4000/events'
-const apiTwo = 'https://localhost:4001/events'
-const apiThree = 'https://localhost:4002/events'
+const apiOne = 'http://localhost:4000/events'
+const apiTwo = 'http://localhost:4001/events'
+const apiThree = 'http://localhost:4002/events'
 
 server.post('/events', (req, res) => {
   const event = req.body

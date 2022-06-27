@@ -8,7 +8,7 @@ const server = express()
 server.use(bodyParser.json())
 server.use(cors())
 
-const apiEvent = 'https://localhost:4005/events'
+const apiEvent = 'http://localhost:4005/events'
 
 const posts = {}
 
